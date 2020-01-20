@@ -47,7 +47,7 @@ void dijkstra(int** m, int* p, int* d, int* u, int source, int infinity, int n){
 
 
 void main(){
-	char file_name[] = "matrix.txt";
+	char file_name[] = "input.txt";
 	FILE* in_file = fopen(file_name, "r");
 	int infinity = 0, i, j, min, v;
 	int value, n = 0;
